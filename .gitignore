@@ -1,0 +1,29 @@
+.env
+*.sketch
+
+# Avoid accidental XD or Figma upload if you convert the design file
+#######################################################
+## Please do not remove lines 11 and 12 - thanks! 🙂 ##
+#######################################################
+*.xd
+*.fig
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+# Ignorar carpetas
+3-column-preview-card/
+3column-card-component/
+Card-perfil/
+Card-qr/
+ProducCard/
+product-preview-card-component/
+qr-code-card/
+results-summary-component/
+results-summary-component-main/
+Saul-Gustavo.github.io/
+Single-price-grid-component/
+
+# Otros patrones para ignorar
+*.log
+node_modules/
+
