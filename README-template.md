@@ -4,6 +4,7 @@ This is a solution to the [Base Apparel Coming Soon Page on Frontend Mentor](htt
 
 ## Table of contents
 
+
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
