@@ -16,28 +16,43 @@
 <body>
   <main class="main">
 
-    <article class="text-content">
-      <img src="images/logo.svg" alt="logo" class="img-logo">
-      <h1 class="title">WE'RE</h1>
-      <h1 class="sub-title">COMING SOON</h1>
+    <section class="logo-container" id="container">
+      <img src="images/logo.svg" alt="logo imagen" class="logo">
+    </section>
 
-      <section class="section-sub">
+    <section class="hero">
+      <img src="images/hero-desktop.jpg" alt="hero desktop" class="hero-img-desk">
+      <img src="images/hero-mobile.jpg" alt="hero mobile" class="hero-img-mob">
+    </section>
+
+    <section class="content">
+      <div class="desk-logo">
+        <img src="images/logo.svg" alt="logo desktop" class="logo-desk">
+      </div>
+      <div class="text">
+        <p>WE'RE</p>
+        <p>COMING</p>
+        <p>SOON</p>
+      </div>
+      <div class="description">
         <p class="sub"> Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
-        <div class="email-content">
-          <input type="email" name="email" id="email-input" placeholder="Email Address" required>
-          <label for="email" class="error-msg"></label>
-          <div class="error-icono"></div>
+      </div>
+
+      <form id="form" class="form">
+        <div class="input-container">
+          <input type="email" id="email" class="email" placeholder="Email Addres">
+          <img src="images/icon-error.svg" alt="icon error" class="icon-error">
           <button class="submit" onclick="validarEmail()">
-            <div class="img-arrow"></div>
+            <img src="images/icon-arrow.svg" alt="icono arrow" class="icon-arrow">
           </button>
         </div>
-      </section>
-    </article>
-
-    <section class="img-banner"></section>
-
+        <section class="error-text">
+          <p>Please provide a valid email</p>
+        </section>
+      </form>
+    </section>
   </main>
 
   <script src="app.js"></script>
