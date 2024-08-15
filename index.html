@@ -14,46 +14,38 @@
 </head>
 
 <body>
-  <main class="main">
 
-    <section class="logo-container" id="container">
-      <img src="images/logo.svg" alt="logo imagen" class="logo">
-    </section>
+  <main class="left">
+    <div class="logo-con">
+      <img src="/images/logo.svg" alt="logo" class="logo">
+    </div>
 
-    <section class="hero">
-      <img src="images/hero-desktop.jpg" alt="hero desktop" class="hero-img-desk">
-      <img src="images/hero-mobile.jpg" alt="hero mobile" class="hero-img-mob">
+    <section class="img-hero">
+      <img src="images/hero-mobile.jpg" alt="hero-mobile" class="hero-mobile">
     </section>
 
     <section class="content">
-      <div class="desk-logo">
-        <img src="images/logo.svg" alt="logo desktop" class="logo-desk">
-      </div>
-      <div class="text">
-        <p>WE'REonline</p>
-        <p>COMING</p>
-        <p>SOON</p>
-      </div>
-      <div class="description">
-        <p class="sub"> Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our launch deals.
-        </p>
-      </div>
+      <h1><span>WE'RE</span><br> COMING <br>SOON</h1>
+      <p class="text">Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay uo-to-date with announcements and out launch deals.
+      </p>
+    </section>
 
-      <form id="form" class="form">
-        <div class="input-container">
-          <input type="email" id="email" class="email" placeholder="Email Addres">
-          <img src="images/icon-error.svg" alt="icon error" class="icon-error">
-          <button class="submit" onclick="validarEmail()">
-            <img src="images/icon-arrow.svg" alt="icono arrow" class="icon-arrow">
+    <section class="form-email">
+      <form action="#" method="post">
+        <div class="form-group">
+          <input type="email" class="email" name="email" id="email" placeholder="Email Address" />
+          <img src="./images/icon-error.svg" class="icon-error" alt="icon-error" />
+          <button type="button" id="submit" class="submit">
+            <img src="./images/icon-arrow.svg" alt="icon-arrow" />
           </button>
         </div>
-        <section class="error-text">
-          <p>Please provide a valid email</p>
-        </section>
+        <p class="error-text"></p>
       </form>
     </section>
   </main>
+
+  <section class="img-hero-desk"></section>
 
   <script src="app.js"></script>
 </body>

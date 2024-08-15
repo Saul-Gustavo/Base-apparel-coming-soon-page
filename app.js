@@ -1,5 +1,7 @@
-function validarEmail() {
-  let emailInput = document.getElementById('email');
+const submitBtn = document.querySelector(".submit")
+
+submitBtn.addEventListener('click', () => {
+  let emailInput = document.querySelector('.email');
   var errorIcon = document.querySelector('.icon-error');
   var errorMessage = document.querySelector('.error-text');
 
@@ -18,4 +20,4 @@ function validarEmail() {
     // Aquí puedes enviar el formulario o realizar otras acciones
     errorMessage.textContent = "Thanks for subscribe to our newsletter "
   }
-}
+})
