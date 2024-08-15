@@ -19,10 +19,9 @@
     box-sizing: border-box;
 }
 body {
-    background: url('./images/bg-pattern-desktop.svg') no-repeat,
+    background: url('./images/bg-pattern-desktop.svg') no-repeat center / cover,
       linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-    background-size: inherit;
-    background-position-x: 8rem;
+    /* background-position-x: 8rem; */
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
     height: 100vh;
