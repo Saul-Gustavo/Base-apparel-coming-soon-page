@@ -28,14 +28,15 @@ body {
     height: 100vh;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 60% 40%;
     width: 100%;
   }
 
   .left {
     width: 100%;
+    max-width: 700px;
     height: auto;
-    padding: 3rem 8rem;
+    margin: 2.5rem 8rem;
   }
 
   .left .logo-con {
